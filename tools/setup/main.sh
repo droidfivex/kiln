@@ -14,4 +14,4 @@ function main () {
   runner install-packer $bin 'https://releases.hashicorp.com/packer/1.1.1/packer_1.1.1_linux_amd64.zip'
 }
 
-main $(realpath $(dirname ${BASH_SOURCE[0]}))
+main $(realpath $(dirname ${BASH_SOURCE[0]})) $@
